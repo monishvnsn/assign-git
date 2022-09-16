@@ -1,0 +1,12 @@
+1. What is a gitignore file and what should it include for a Java project?
+1A. gitignore file tells Git which files to ignore when committing your project to the GitHub repository. gitignore is located in the root directory of your repo. / will ignore directories with the name. It should include .jar, .war, nar, .class, .rar files.
+
+	
+2.  What does fast-forward in git mean?
+2A. Fast-forward merges literally move your main branch's tip forward to the end of your feature branch. This keeps all commits created in your feature branch sequential while integrating it neatly back into your main branch.
+
+3. Why should you have different branches?
+3A. Branching allows each developer to branch out from the original code base and isolate their work from others. It also helps Git to easily merge versions later on.
+
+4. In a project how many remote Git repositories do you usually have?
+4A. Small projects just require one remote repository, however bigger projects may require numerous remote repositories.
